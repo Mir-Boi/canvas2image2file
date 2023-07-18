@@ -30,9 +30,9 @@
     // Преобразуем canvas в data URL формат png
     var url = canvas.toDataURL("image/png");
     // Заменяем текущее окно на картинку
-    window.location.replace(url);
+    // window.location.replace(url);
 
-    document.querySelector('meta[property="og:image"]').setAttribute("url", _desc);
+    document.querySelector('meta[property="og:image"]').setAttribute(url, _desc);
 
     </script>
     
