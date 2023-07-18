@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <meta property="og:image" content="">
 </head>
 <body>
     <canvas></canvas> <!-- Добавил тег canvas -->
@@ -25,10 +24,10 @@
     ctx.fillRect(100, 0, 100, 100);
     ctx.fillStyle = "green";
     ctx.fillRect(0, 100, 100, 100);
-    ctx.fillStyle = "yellow";
+    ctx.fillStyle = "silver";
     ctx.fillRect(100, 100, 100, 100);
     // Преобразуем canvas в data URL формат png
-    var url = canvas.toDataURL("image/png");
+    // var url = canvas.toDataURL("image/png");
     // Заменяем текущее окно на картинку
     // window.location.replace(url);
 
